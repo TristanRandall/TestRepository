@@ -7,30 +7,30 @@ namespace .netmadness
         	{
 			Console.WriteLine("Please enter your username");
 			string usrname = Console.ReadLine();
-			while (usrname != Tristan)
+			while (usrname != username)
 			{
 			Console.WriteLine("Incorrect username, please try again.");
 			Console.WriteLine("Please enter your username");
 			string usrname = Console.ReadLine();
 			}
-			if (usrname == Tristan) 
+			if (usrname == username) 
 			{
 				Console.WriteLine("Authorized");
 					
 			}
 			Console.WriteLinne("Now Please enter your password");
 			string password = Console.ReadLine();
-			while (password != 3adaaea64cTn2002tr)
+			while (password != password)
 			{
 			Cosole.WriteLine("Incorrect password, please try again.");
 			Console.WriteLine("Please enter your Password");
 			string password = Console.ReadLine();
 			}
-			if (password == 3adaaea64cTn2002tr)
+			if (password == password)
 			{
 				Console.WriteLine("You are in!!);
 			}
-			if (usrname == Tristan && password == 3adaaea64cTn2002tr)
+			if (usrname == username && password == password)
 			{
 				Console.WriteLine("Hello, welcome to the prgram");
 			}
